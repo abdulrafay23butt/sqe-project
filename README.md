@@ -2,14 +2,10 @@
 - https://github.com/jaygajera17/E-commerce-project-springBoot/tree/main
 - issue: everytime connection open close for access database 
 
-## New Upgrade ( what's new)
-- Hibernate configuration added( database and tables automatically create when run the project)
-- Service classes provide reusable services throughout project
-- dao classes interact with database 
-- bug fixed ( product image, security , etc..)
-- support in both eclipse & intellij ide
-- overall redesign entire code that help reusability. 
-- disclaimer: currently working on this branch so there may be some bug related to endpoint, and working on cart logic.
+## New Upgrade ( The Unknowns)
+- deliverable1
+- syntax error changed from execute() to executeQuery() in AdminController
+- application.properties password was changed
   
 ## Quickstart
 
