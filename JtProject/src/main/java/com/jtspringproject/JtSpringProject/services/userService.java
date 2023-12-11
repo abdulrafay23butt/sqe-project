@@ -13,18 +13,18 @@ import com.jtspringproject.JtSpringProject.models.User;
 public class userService {
 	@Autowired
 	private userDao userDao;
-	
+
 	public List<User> getUsers(){
 		return this.userDao.getAllUser();
 	}
-	
+
 	public User addUser(User user) {
 		return this.userDao.saveUser(user);
 	}
-	
+
 	public User checkLogin(String username,String password) {
 		return this.userDao.getUser(username, password);
 	}
 
-	
+	public User updateUser(User user){return this.userDao.updateUser(user);}
 }

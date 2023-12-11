@@ -19,16 +19,16 @@ public class User {
 	private int id;
 
 	private String username;
-	
+
 	private String email;
-	
+
 	private String password;
-	
+
 	private String role;
-	
+
 	private String address;
-	
-	
+
+
 	public int getId() {
 		return id;
 	}
@@ -76,7 +76,7 @@ public class User {
 	public void setAddress(String address) {
 		this.address = address;
 	}
-	
-	 
+
+
 
 }
