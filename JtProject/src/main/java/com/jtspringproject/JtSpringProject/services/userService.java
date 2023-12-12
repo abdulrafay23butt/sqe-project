@@ -22,7 +22,7 @@ public class userService {
 		return this.userDao.saveUser(user);
 	}
 
-	public User checkLogin(String username,String password) {
+	public  User checkLogin(String username, String password) {
 		return this.userDao.getUser(username, password);
 	}
 
